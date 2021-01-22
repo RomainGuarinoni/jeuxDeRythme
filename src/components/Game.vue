@@ -105,18 +105,6 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: "Crete Round", serif;
-  display: flex;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-}
 .gameBox {
   flex: 1;
   display: flex;
