@@ -30,43 +30,43 @@ export default {
   data() {
     let noteGlobal = [
       {
-        img: "@/assets/ronde.svg",
+        name: "ronde.svg",
         value: 1,
       },
       {
-        img: "@/assets/blanche.svg",
+        name: "blanche.svg",
         value: 2,
       },
       {
-        img: "@/assets/noir.svg",
+        name: "noir.svg",
         value: 3,
       },
       {
-        img: "@/assets/noirpoint.svg",
+        name: "noirpoint.svg",
         value: 4,
       },
       {
-        img: "@/assets/croche.svg",
+        name: "croche.svg",
         value: 5,
       },
       {
-        img: "@/assets/pause.svg",
+        name: "pause.svg",
         value: 6,
       },
       {
-        img: "@/assets/demiPause.svg",
+        name: "demiPause.svg",
         value: 7,
       },
       {
-        img: "@/assets/soupir.svg",
+        name: "soupir.svg",
         value: 8,
       },
       {
-        img: "@/assets/demiSoupirPoint.svg",
+        name: "demiSoupirPoint.svg",
         value: 9,
       },
       {
-        img: "@/assets/demiSoupir.svg",
+        name: "demiSoupir.svg",
         value: 10,
       },
     ];

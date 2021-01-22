@@ -23,9 +23,7 @@ export default {
   },
   computed: {
     img() {
-      let img = '"' + this.level.note[0].img + '"';
-      console.log(img);
-      return require("@/assets/blanche.svg");
+      return require("@/assets/" + this.level.note[0].name + "");
     },
   },
   methods: {
