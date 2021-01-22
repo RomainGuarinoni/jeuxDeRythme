@@ -14,53 +14,59 @@
         </div>
       </div>
     </div>
-    <div class="game" v-else></div>
+    <div class="game" v-else>
+      <Game :level="prop" />
+    </div>
   </div>
 </template>
 
 <script>
+import Game from "./components/Game.vue";
 export default {
   name: "App",
+  components: {
+    Game,
+  },
   data() {
     let noteGlobal = [
       {
-        img: require("@/assets/ronde.svg"),
+        img: "@/assets/ronde.svg",
         value: 1,
       },
       {
-        img: require("@/assets/blanche.svg"),
+        img: "@/assets/blanche.svg",
         value: 2,
       },
       {
-        img: require("@/assets/noir.svg"),
+        img: "@/assets/noir.svg",
         value: 3,
       },
       {
-        img: require("@/assets/noirpoint.svg"),
+        img: "@/assets/noirpoint.svg",
         value: 4,
       },
       {
-        img: require("@/assets/croche.svg"),
+        img: "@/assets/croche.svg",
         value: 5,
       },
       {
-        img: require("@/assets/pause.svg"),
+        img: "@/assets/pause.svg",
         value: 6,
       },
       {
-        img: require("@/assets/demiPause.svg"),
+        img: "@/assets/demiPause.svg",
         value: 7,
       },
       {
-        img: require("@/assets/soupir.svg"),
+        img: "@/assets/soupir.svg",
         value: 8,
       },
       {
-        img: require("@/assets/demiSoupirPoint.svg"),
+        img: "@/assets/demiSoupirPoint.svg",
         value: 9,
       },
       {
-        img: require("@/assets/demiSoupir.svg"),
+        img: "@/assets/demiSoupir.svg",
         value: 10,
       },
     ];
